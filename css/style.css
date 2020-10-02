@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+article {
+  flex: 1
+}
+nav {
+  order: -1
+}
+aside {
+  background: rgba(188,143,143,.8);
+  padding: 10px;
+  width: 20vw;
+  font-size: 25px;
+}
+nav {
+  background: rgba(188,143,143,.8);
+  padding: 10px;
+  width: 20vw;
+}
+header{
+  background: rgba(28, 158, 152, 0.6);
+  height: 20vh;
+  padding: 20px;
+  color: rgb(30,40,30);
+}
+footer{
+  background: rgba(28, 158, 152, 0.6);
+  height: 10vh;
+  padding: 10px;
+  color: rgb(30,40,30);
+}
+article { 
+  background: rgba(255,228,196,.9);
+  padding: 10px;
+  color: rgb(30,40,30);
+}
+.navlinks{
+  display: block;
+  font-size: 30px;
+  color: rgb(30,40,30);
+}
+.navlinks:hover{
+  color: white;
+  font-size: 40px;
+}
+.dropdownlinks{
+  display: block;
+  font-size: 20px;
+  color: rgb(30,40,30);
+}
+.dropdownlinks:hover{
+  color: white;
+  font-size: 25px;
+}
+header{
+  font-size: 60px;
+}
+figure {
+    padding: 0;
+    position: relative; 
+}
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+figure figcaption {
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   font-size: 15px;
+}
