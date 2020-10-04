@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+article {
+  flex: 1
+}
+nav {
+  order: -1
+}
+aside {
+    padding: 10px;
+    width: 20vw;
+  }
+  nav {
+    padding: 10px;
+    width: 20vw;
+  }
+  header{
+    height: 20vh;
+    padding: 20px;
+  }
+  footer{
+    height: 10vh;
+    padding: 10px;
+  }
+  article { 
+    padding: 10px;
+  }
+  .navlinks{
+    display: block;
+  }
+  .dropdownlinks{
+    display: block;
+  }
+  .dropdownlinks:hover{
+    color: white;
+    font-size: 25px;
+  }
+  figure {
+      padding: 0;
+      position: relative; 
+  }
+  figure img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      height: auto;
+  }
+  #github{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+   text-align: center;
+  }
+  #email{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+   text-align: center;
+  }
