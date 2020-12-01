@@ -2,36 +2,93 @@
 <html lang="en">
 
 <head>
-  <title>AlysshaTimm</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-  <header>Hello, Y'all! I'm Alyssha Timm</header>
-  <main>
-    <article>
-      <figure>
-        <img
-          src="IMG_5135.jpg"
-          alt="Wall art depicting a cactus and rabbit with sunset.">
-        <figcaption>Open Skies and Cacti.</figcaption>
-      </figure>
-    </article>
-    <nav>
-      <a class="navlinks" href="home.html">Home</a>
-      <a id="about" class="navlinks" href="about.html">About Me</a>
-      <div class="dropdown">
-        <a id="projects" class="navlinks" href="projects.html">Projects & Pieces</a>
-        <a class="dropdownlinks" href="virtualpet.html">Virtual Pet</a>
-        <a class="dropdownlinks" href="project2.html">Project 2</a>
-        <a class="dropdownlinks" href="project3.html">Project 3</a>
-      </div>
-      <a id="contact" class="navlinks" href="contact.html">Let's Connect</a>
-    </nav>
-    <aside>Home, home on the page. Where the code and the jackalopes play...</aside>
-  </main>
-  <footer>Hey! The content's all up there. </footer>
+    <div class="container">
+        <header class="greeting" id="header">
+            <h1>Alyssha Timm</h1>
+            <nav class="nav-bar">
+                <a href="#about-me">About Me ||</a>
+                <a href="#projects">Projects ||</a>
+                <a href="#contact">Let's Connect</a>
+            </nav>
+        </header>
+        <div class="about-me" id="about-me">
+            <h2 class="about-me-header">About Me</h2>
+            <img class="selfie" src="/Alyssha.jpg" />
+            <p class="bio">Axe throwing coach with a knack for creative problem
+                solving. I have a background in poetry and studying literature. I'm transitioning to the field of
+                software development,
+                where I can use my keen editorial eye and diverse
+                perspective to create beautiful and functional web apps.
+                I'm a clean code devotee, and enjoy approaching code the same way I would a narrative - with an emphasis
+                on
+                clarity and overall structure.
+                I'm a reality TV enthusiast and shameless defender of all the <em>90 Day Fiancé</em> franchise
+                spin-offs. When I'm not studying coding, I'm probably spending time with my husband, playing video
+                games, or listening to podcasts.
+            </p>
+            <p class="skills">SKILLS: Java • Spring • Hibernate •
+                JPA • JavaScript • MVC •
+                HTML • CSS • Flexbox • Grid •
+                TDD • Agile (Scrum) • Object
+                Oriented Programming
+                (OOP) • AJAX • JSON • Restful
+                APIs • Responsive Design /
+                Mobile • Structured Query
+                Language (SQL) • Relational
+                Databases • Source Control /
+                Git</p>
+
+        </div>
+        <div class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-one">
+                <h3>Donut Maker Game</h3>
+                <img class="donut-maker-img" src="/DonutMaker Screenshot.png">
+                <p class="one-description">Single-page web game, inspired by Cookie Clicker. Created with HTML, CSS
+                    and
+                    JavaScript, and tested using Jasmine.</p>
+            </div>
+            <div class="project-two">
+                <h3>Review Site</h3>
+                <img class="review-site-img" src="/review-site screenshot.png">
+                <p class="two-description">Dynamically-populated website created using HTML, CSS, Java, Spring,
+                    Thymeleaf, and MVC Frameworks, with the interactive ability to add hashtags, ratings, and
+                    comments.
+                </p>
+            </div>
+            <div class="project-three">
+                <h3>Jukebox Hero - Jukebox App</h3>
+                <img class="jukebox-site-img" src="/jukebox screenshot.png">
+                <p class="three-description">Site built to store album and song data received from a custom-built
+                    RESTful API. Also had the ability to add album data, as well as rate and comment on both albums and
+                    individual songs. Project completed with HTML, CSS, Java, and JavaScript.</p>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Call Me, Beep Me (If You Wanna Reach Me):</h2>
+            <a href="https://github.com/alysshatimm?tab=repositories" id="github">
+                <img src="GitHub-Mark-120px-plus.png" alt="Github Link">
+            </a>
+            <a href="https://www.linkedin.com/in/alyssha-timm-a13527185/" id="linkedin">
+                <img src="iconfinder_linkedin-logo-1_1269935.png" alt="LinkedIn Logo">
+            </a>
+            <a href="mailto:aly.nelso@gmail.com" id="email">
+                <img src="iconfinder_mail-24_103176.png" alt="Email Link">
+            </a>
+        </div>
+        <footer>&copy; Alyssha Timm 2020 ||<a href="#header" class="back-to-top">Back to top</a>
+        </footer>
+    </div>
+
+
 </body>
+
+</html>
