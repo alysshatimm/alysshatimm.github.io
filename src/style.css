@@ -153,7 +153,6 @@ p {
 }
 
 .project-card {
-    backface-visibility: hidden;
     display: flex;
     flex-direction: column;
     width: 23%;
@@ -255,7 +254,7 @@ footer {
     }
 
     .project-card {
-        height: 350px;
+        height: 400px;
         width: 90%;
     }
 
