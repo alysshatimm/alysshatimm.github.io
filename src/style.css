@@ -153,6 +153,7 @@ p {
 }
 
 .project-card {
+    backface-visibility: hidden;
     display: flex;
     flex-direction: column;
     width: 23%;
